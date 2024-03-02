@@ -33,3 +33,4 @@ bin/
 build/
 build
 build.gradle.kts
+.idea
