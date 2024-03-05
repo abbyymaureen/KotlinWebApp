@@ -1,5 +1,7 @@
 package com.abrown.KotlinCalculator.util
 
+import java.io.File
+
 /**
  * @author abbybrown
  * @filename Taxation.kt
@@ -42,6 +44,13 @@ class TaxCalculator {
         TaxBracket(346875.0, Double.MAX_VALUE, 0.37)
     )
 
+    // define the allowable marital statuses
+    enum class MaritalStatus {
+        SINGLE,
+        MARRIED_JOINTLY,
+        MARRIED_SEPARATELY
+    }
+
     /**
      * @param income - the income of our user
      * @param maritalStatus - the marital status of our user
@@ -51,7 +60,7 @@ class TaxCalculator {
      * This function calculates how much tax is taken from the user based on income, tax bracket, and
      * marital status.
      */
-    fun calculateIncomeTax(income: Double, maritalStatus: MaritalStatus): Pair<Double, Double> {
+    fun calculateFederalIncomeTax(income: Double, maritalStatus: MaritalStatus): Pair<Double, Double> {
         val taxBrackets = getTaxBracketsForMaritalStatus(maritalStatus)
         var remainingIncome = income
         var totalTax = 0.0
@@ -91,13 +100,33 @@ class TaxCalculator {
         }
     }
 
+    // Load state income tax brackets from CSV file
+    private val stateTaxBrackets: List<StateBracket> by lazy {
+        val stateTaxData = mutableListOf<StateBracket>()
+        val csvFile = File("state_tax_rates.csv")
+        val lines = csvFile.readLines().drop(1) // Skip header line
+
+        lines.forEach { line ->
+            val columns = line.split("\t")
+            if (columns.size == 5) {
+                val state = columns[0]
+                val maritalStatus = when (columns[1]) {
+                    "Single", "Married Filing Separately" -> MaritalStatus.SINGLE
+                    "Married Filing Jointly" -> MaritalStatus.MARRIED_JOINTLY
+                    else -> MaritalStatus.SINGLE
+                }
+                val lowerBound = columns[2].toDouble()
+                val upperBound = if (columns[3] == "-") 0.00 else columns[3].toDouble()
+                val taxRate = columns[4].toDouble()
+
+                stateTaxData.add(StateBracket(state, maritalStatus, lowerBound, upperBound, taxRate))
+            }
+        }
+        stateTaxData
+    }
+
     // this is cool! you can make a class for only data and no logic
     data class TaxBracket(val lowerBound: Double, val upperBound: Double, val taxRate: Double)
 
-    // define the allowable marital statuses
-    enum class MaritalStatus {
-        SINGLE,
-        MARRIED_JOINTLY,
-        MARRIED_SEPARATELY
-    }
+    data class StateBracket(val state: String, val marital: MaritalStatus, val lowerBound: Double, val upperBound: Double, val taxRate: Double)
 }

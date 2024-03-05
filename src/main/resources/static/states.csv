@@ -1,0 +1,320 @@
+State,Marital Status,Income,Rate
+Alabama,Married Filing Jointly,0,1000,2.00
+Alabama,Married Filing Jointly,1001,6000,4.00
+Alabama,Married Filing Jointly,6001,Double.MAX_VALUE,5.00
+Alabama,Single,0,500,2.00
+Alabama,Single,501,3000,4.00
+Alabama,Single,3001,Double.MAX_VALUE,5.00
+Alaska,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Alaska,Single,0,Double.MAX_VALUE,0.00
+Arizona,Single,0,Double.MAX_VALUE,2.50
+Arizona,Married Filing Jointly,0,Double.MAX_VALUE,2.50
+Arkansas,Single,0,4400,2.00
+Arkansas,Single,4401,8800,4.00
+Arkansas,Single,8801,Double.MAX_VALUE,4.40
+Arkansas,Married Filing Jointly,0,4400,2.00
+Arkansas,Married Filing Jointly,4401,8800,4.00
+Arkansas,Married Filing Jointly,8801,Double.MAX_VALUE,4.40
+California,Single,0,10412,1.00
+California,Single,10413,24684,2.00
+California,Single,24685,38959,4.00
+California,Single,38960,54081,6.00
+California,Single,54082,68350,8.00
+California,Single,68351,349137,9.30
+California,Single,349138,418961,10.30
+California,Single,418962,698271,11.30
+California,Single,698272,1000000,12.30
+California,Married Filing Jointly,0,20824,1.00
+California,Married Filing Jointly,20825,49368,2.00
+California,Married Filing Jointly,49369,77918,4.00
+California,Married Filing Jointly,77919,108162,6.00
+California,Married Filing Jointly,108163,136700,8.00
+California,Married Filing Jointly,136701,698274,9.30
+California,Married Filing Jointly,698275,837922,10.30
+California,Married Filing Jointly,837923,1000000,11.30
+California,Married Filing Jointly,1000001,1396542,12.30
+Colorado,Single,0,1000,4.40
+Colorado,Married Filing Jointly,0,1000,4.40
+Connecticut,Single,0,10000,2.00
+Connecticut,Single,10001,50000,4.50
+Connecticut,Single,50001,100000,5.50
+Connecticut,Single,100001,200000,6.00
+Connecticut,Single,200001,250000,6.50
+Connecticut,Single,250001,500000,6.99
+Connecticut,Single,500001,Double.MAX_VALUE,6.99
+Connecticut,Married Filing Jointly,0,20000,2.00
+Connecticut,Married Filing Jointly,20001,100000,4.50
+Connecticut,Married Filing Jointly,100001,200000,5.50
+Connecticut,Married Filing Jointly,200001,400000,6.00
+Connecticut,Married Filing Jointly,400001,500000,6.50
+Connecticut,Married Filing Jointly,500001,1000000,6.99
+Delaware,Single,0,2000,2.20
+Delaware,Single,2001,5000,3.90
+Delaware,Single,5001,10000,4.80
+Delaware,Single,10001,20000,5.20
+Delaware,Single,20001,25000,5.55
+Delaware,Single,25001,60000,6.60
+Delaware,Married Filing Jointly,0,2000,2.20
+Delaware,Married Filing Jointly,2001,5000,3.90
+Delaware,Married Filing Jointly,5001,10000,4.80
+Delaware,Married Filing Jointly,10001,20000,5.20
+Delaware,Married Filing Jointly,20001,25000,5.55
+Delaware,Married Filing Jointly,25001,60000,6.60
+Florida,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Florida,Single,0,Double.MAX_VALUE,0.00
+Georgia,Married Filing Jointly,0,Double.MAX_VALUE,5.49
+Georgia,Single,0,Double.MAX_VALUE,5.49
+Hawaii,Single,0,2400,1.40
+Hawaii,Single,2401,4800,3.20
+Hawaii,Single,4801,9600,5.50
+Hawaii,Single,9601,14400,6.40
+Hawaii,Single,14401,19200,6.80
+Hawaii,Single,19201,24000,7.20
+Hawaii,Single,24001,36000,7.90
+Hawaii,Single,36001,48000,8.25
+Hawaii,Single,48001,150000,9.00
+Hawaii,Single,150001,175000,10.00
+Hawaii,Single,175001,200000,11.00
+Hawaii,Married Filing Jointly,0,2400,1.40
+Hawaii,Married Filing Jointly,2401,4800,3.20
+Hawaii,Married Filing Jointly,4801,9600,5.50
+Hawaii,Married Filing Jointly,9601,19200,6.40
+Hawaii,Married Filing Jointly,19201,28800,6.80
+Hawaii,Married Filing Jointly,28801,38400,7.20
+Hawaii,Married Filing Jointly,38401,48000,7.60
+Hawaii,Married Filing Jointly,48001,72000,7.90
+Hawaii,Married Filing Jointly,72001,96000,8.25
+Hawaii,Married Filing Jointly,96001,300000,9.00
+Hawaii,Married Filing Jointly,300001,350000,10.00
+Hawaii,Married Filing Jointly,350001,400000,11.00
+Idaho,Single,0,1600,1.125
+Idaho,Single,1601,3200,3.125
+Idaho,Single,3201,4800,3.125
+Idaho,Single,4801,6400,3.125
+Idaho,Single,6401,32000,6.925
+Idaho,Single,32001,Double.MAX_VALUE,6.925
+Idaho,Married Filing Jointly,0,3200,1.125
+Idaho,Married Filing Jointly,3201,6400,3.125
+Idaho,Married Filing Jointly,6401,9600,3.125
+Idaho,Married Filing Jointly,9601,12800,3.125
+Idaho,Married Filing Jointly,12801,64000,6.925
+Idaho,Married Filing Jointly,64001,Double.MAX_VALUE,6.925
+Illinois,Single,0,Double.MAX_VALUE,4.95
+Illinois,Married Filing Jointly,0,Double.MAX_VALUE,4.95
+Indiana,Single,0,Double.MAX_VALUE,3.23
+Indiana,Married Filing Jointly,0,Double.MAX_VALUE,3.23
+Iowa,Single,0,Double.MAX_VALUE,8.53
+Iowa,Married Filing Jointly,0,Double.MAX_VALUE,8.53
+Kansas,Single,0,15000,3.10
+Kansas,Single,15001,Double.MAX_VALUE,5.70
+Kansas,Married Filing Jointly,0,30000,3.10
+Kansas,Married Filing Jointly,30001,Double.MAX_VALUE,5.70
+Kentucky,Single,0,Double.MAX_VALUE,5.00
+Kentucky,Married Filing Jointly,0,Double.MAX_VALUE,5.00
+Louisiana,Single,0,Double.MAX_VALUE,2.00
+Louisiana,Married Filing Jointly,0,Double.MAX_VALUE,2.00
+Maine,Single,0,21700,5.80
+Maine,Single,21701,Double.MAX_VALUE,7.15
+Maine,Married Filing Jointly,0,43400,5.80
+Maine,Married Filing Jointly,43401,Double.MAX_VALUE,7.15
+Maryland,Single,0,1000,2.00
+Maryland,Single,1001,2000,3.00
+Maryland,Single,2001,3000,4.00
+Maryland,Single,3001,100000,4.75
+Maryland,Single,100001,125000,5.00
+Maryland,Single,125001,150000,5.25
+Maryland,Single,150001,250000,5.50
+Maryland,Single,250001,500000,5.75
+Maryland,Single,500001,Double.MAX_VALUE,5.75
+Maryland,Married Filing Jointly,0,1000,2.00
+Maryland,Married Filing Jointly,1001,2000,3.00
+Maryland,Married Filing Jointly,2001,3000,4.00
+Maryland,Married Filing Jointly,3001,150000,4.75
+Maryland,Married Filing Jointly,150001,175000,5.00
+Maryland,Married Filing Jointly,175001,225000,5.25
+Maryland,Married Filing Jointly,225001,300000,5.50
+Maryland,Married Filing Jointly,300001,500000,5.75
+Maryland,Married Filing Jointly,500001,Double.MAX_VALUE,5.75
+Massachusetts,Single,0,1000,5.00
+Massachusetts,Single,1001,10000,5.05
+Massachusetts,Single,10001,Double.MAX_VALUE,5.05
+Massachusetts,Married Filing Jointly,0,1000,5.00
+Massachusetts,Married Filing Jointly,1001,10000,5.05
+Massachusetts,Married Filing Jointly,10001,Double.MAX_VALUE,5.05
+Michigan,Single,0,12099,4.25
+Michigan,Single,12000,Double.MAX_VALUE,4.25
+Michigan,Married Filing Jointly,0,24099,4.25
+Michigan,Married Filing Jointly,24000,Double.MAX_VALUE,4.25
+Minnesota,Single,0,26790,5.35
+Minnesota,Single,26791,87990,7.05
+Minnesota,Single,87991,163930,7.85
+Minnesota,Single,163931,Double.MAX_VALUE,9.85
+Minnesota,Married Filing Jointly,0,39750,5.35
+Minnesota,Married Filing Jointly,39751,153140,7.05
+Minnesota,Married Filing Jointly,153141,261510,7.85
+Minnesota,Married Filing Jointly,261511,Double.MAX_VALUE,9.85
+Mississippi,Single,0,Double.MAX_VALUE,3.00
+Mississippi,Married Filing Jointly,0,Double.MAX_VALUE,3.00
+Missouri,Single,0,104,1.50
+Missouri,Single,105,1050,2.00
+Missouri,Single,1051,2100,2.50
+Missouri,Single,2101,3150,3.00
+Missouri,Single,3151,5250,3.50
+Missouri,Single,5251,Double.MAX_VALUE,5.40
+Missouri,Married Filing Jointly,0,208,1.50
+Missouri,Married Filing Jointly,209,2100,2.00
+Missouri,Married Filing Jointly,2101,4200,2.50
+Missouri,Married Filing Jointly,4201,6300,3.00
+Missouri,Married Filing Jointly,6301,10500,3.50
+Missouri,Married Filing Jointly,10501,Double.MAX_VALUE,5.40
+Montana,Single,0,3200,1.00
+Montana,Single,3201,6800,2.00
+Montana,Single,6801,10600,3.00
+Montana,Single,10601,Double.MAX_VALUE,4.00
+Montana,Married Filing Jointly,0,6400,1.00
+Montana,Married Filing Jointly,6401,13600,2.00
+Montana,Married Filing Jointly,13601,21200,3.00
+Montana,Married Filing Jointly,21201,Double.MAX_VALUE,4.00
+Nebraska,Single,0,Double.MAX_VALUE,6.84
+Nebraska,Married Filing Jointly,0,Double.MAX_VALUE,6.84
+Nevada,Single,0,Double.MAX_VALUE,0.00
+Nevada,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+New Hampshire,Single,0,Double.MAX_VALUE,5.00
+New Hampshire,Married Filing Jointly,0,Double.MAX_VALUE,5.00
+New Jersey,Single,0,20000,1.40
+New Jersey,Single,20001,35000,1.75
+New Jersey,Single,35001,40000,3.50
+New Jersey,Single,40001,75000,5.53
+New Jersey,Single,75001,500000,6.37
+New Jersey,Single,500001,Double.MAX_VALUE,10.75
+New Jersey,Married Filing Jointly,0,20000,1.40
+New Jersey,Married Filing Jointly,20001,50000,1.75
+New Jersey,Married Filing Jointly,50001,70000,2.45
+New Jersey,Married Filing Jointly,70001,80000,3.50
+New Jersey,Married Filing Jointly,80001,150000,5.53
+New Jersey,Married Filing Jointly,150001,500000,6.37
+New Jersey,Married Filing Jointly,500001,Double.MAX_VALUE,10.75
+New Mexico,Single,0,5500,1.70
+New Mexico,Single,5501,11000,3.20
+New Mexico,Single,11001,Double.MAX_VALUE,4.90
+New Mexico,Married Filing Jointly,0,8000,1.70
+New Mexico,Married Filing Jointly,8001,16000,3.20
+New Mexico,Married Filing Jointly,16001,Double.MAX_VALUE,4.90
+New York,Single,0,8500,4.00
+New York,Single,8501,11700,4.50
+New York,Single,11701,13900,5.25
+New York,Single,13901,21400,5.90
+New York,Single,21401,80650,6.09
+New York,Single,80651,215400,6.41
+New York,Single,215401,1077550,6.85
+New York,Single,1077551,Double.MAX_VALUE,8.82
+New York,Married Filing Jointly,0,17150,4.00
+New York,Married Filing Jointly,17151,23600,4.50
+New York,Married Filing Jointly,23601,27900,5.25
+New York,Married Filing Jointly,27901,43000,5.90
+New York,Married Filing Jointly,43001,161550,6.09
+New York,Married Filing Jointly,161551,323200,6.41
+New York,Married Filing Jointly,323201,2155350,6.85
+New York,Married Filing Jointly,2155351,Double.MAX_VALUE,8.82
+North Carolina,Single,0,2500,2.50
+North Carolina,Single,2501,10000,3.00
+North Carolina,Single,10001,20000,5.25
+North Carolina,Single,20001,Double.MAX_VALUE,5.75
+North Carolina,Married Filing Jointly,0,5000,2.50
+North Carolina,Married Filing Jointly,5001,20000,3.00
+North Carolina,Married Filing Jointly,20001,40000,5.25
+North Carolina,Married Filing Jointly,40001,Double.MAX_VALUE,5.75
+North Dakota,Single,0,39850,1.10
+North Dakota,Single,39851,96700,2.90
+North Dakota,Single,96701,Double.MAX_VALUE,2.90
+North Dakota,Married Filing Jointly,0,65300,1.10
+North Dakota,Married Filing Jointly,65301,185400,2.90
+North Dakota,Married Filing Jointly,185401,Double.MAX_VALUE,2.90
+Ohio,Single,0,Double.MAX_VALUE,2.85
+Ohio,Married Filing Jointly,0,Double.MAX_VALUE,2.85
+Oklahoma,Single,0,1000,0.50
+Oklahoma,Single,1001,Double.MAX_VALUE,1.00
+Oklahoma,Married Filing Jointly,0,2000,0.50
+Oklahoma,Married Filing Jointly,2001,Double.MAX_VALUE,1.00
+Oregon,Single,0,3450,4.75
+Oregon,Single,3451,8700,6.75
+Oregon,Single,8701,125000,8.75
+Oregon,Single,125001,Double.MAX_VALUE,9.90
+Oregon,Married Filing Jointly,0,6900,4.75
+Oregon,Married Filing Jointly,6901,17400,6.75
+Oregon,Married Filing Jointly,17401,250000,8.75
+Oregon,Married Filing Jointly,250001,Double.MAX_VALUE,9.90
+Pennsylvania,Single,0,Double.MAX_VALUE,3.07
+Pennsylvania,Married Filing Jointly,0,Double.MAX_VALUE,3.07
+Rhode Island,Single,0,65550,3.75
+Rhode Island,Single,65551,149150,4.75
+Rhode Island,Single,149151,Double.MAX_VALUE,5.99
+Rhode Island,Married Filing Jointly,0,65550,3.75
+Rhode Island,Married Filing Jointly,65551,149150,4.75
+Rhode Island,Married Filing Jointly,149151,Double.MAX_VALUE,5.99
+South Carolina,Single,0,3070,0.00
+South Carolina,Single,3071,6150,3.00
+South Carolina,Single,6151,9230,4.00
+South Carolina,Single,9231,Double.MAX_VALUE,5.00
+South Carolina,Married Filing Jointly,0,6150,0.00
+South Carolina,Married Filing Jointly,6151,12300,3.00
+South Carolina,Married Filing Jointly,12301,18460,4.00
+South Carolina,Married Filing Jointly,18461,Double.MAX_VALUE,5.00
+South Dakota,Single,0,Double.MAX_VALUE,0.00
+South Dakota,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Tennessee,Single,0,Double.MAX_VALUE,0.00
+Tennessee,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Texas,Single,0,Double.MAX_VALUE,0.00
+Texas,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Utah,Single,0,3200,4.95
+Utah,Single,3201,9600,4.95
+Utah,Single,9601,19200,4.95
+Utah,Single,19201,32000,4.95
+Utah,Single,32001,Double.MAX_VALUE,4.95
+Utah,Married Filing Jointly,0,6400,4.95
+Utah,Married Filing Jointly,6401,19200,4.95
+Utah,Married Filing Jointly,19201,38400,4.95
+Utah,Married Filing Jointly,38401,64000,4.95
+Utah,Married Filing Jointly,64001,Double.MAX_VALUE,4.95
+Vermont,Single,0,40550,3.35
+Vermont,Single,40551,101400,6.60
+Vermont,Single,101401,Double.MAX_VALUE,7.60
+Vermont,Married Filing Jointly,0,67800,3.35
+Vermont,Married Filing Jointly,67801,152600,6.60
+Vermont,Married Filing Jointly,152601,Double.MAX_VALUE,7.60
+Virginia,Single,0,3000,2.00
+Virginia,Single,3001,5000,3.00
+Virginia,Single,5001,Double.MAX_VALUE,5.75
+Virginia,Married Filing Jointly,0,3000,2.00
+Virginia,Married Filing Jointly,3001,5000,3.00
+Virginia,Married Filing Jointly,5001,Double.MAX_VALUE,5.75
+Washington,Single,0,Double.MAX_VALUE,0.00
+Washington,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+West Virginia,Single,0,10000,3.00
+West Virginia,Single,10001,Double.MAX_VALUE,6.50
+West Virginia,Married Filing Jointly,0,20000,3.00
+West Virginia,Married Filing Jointly,20001,Double.MAX_VALUE,6.50
+Wisconsin,Single,0,11700,4.00
+Wisconsin,Single,11701,23400,5.30
+Wisconsin,Single,23401,247350,6.27
+Wisconsin,Single,247351,Double.MAX_VALUE,7.65
+Wisconsin,Married Filing Jointly,0,15600,4.00
+Wisconsin,Married Filing Jointly,15601,31150,5.30
+Wisconsin,Married Filing Jointly,31151,494700,6.27
+Wisconsin,Married Filing Jointly,494701,Double.MAX_VALUE,7.65
+Wyoming,Single,0,Double.MAX_VALUE,0.00
+Wyoming,Married Filing Jointly,0,Double.MAX_VALUE,0.00
+Washington D.C.,Single,0,10000,4.00
+Washington D.C.,Single,10001,40000,6.00
+Washington D.C.,Single,40001,60000,6.50
+Washington D.C.,Single,60001,250000,8.50
+Washington D.C.,Single,250001,500000,9.25
+Washington D.C.,Single,500001,1000000,9.75
+Washington D.C.,Single,1000001,Double.MAX_VALUE,10.75
+Washington D.C.,Married Filing Jointly,0,10000,4.00
+Washington D.C.,Married Filing Jointly,10001,40000,6.00
+Washington D.C.,Married Filing Jointly,40001,60000,6.50
+Washington D.C.,Married Filing Jointly,60001,250000,8.50
+Washington D.C.,Married Filing Jointly,250001,500000,9.25
+Washington D.C.,Married Filing Jointly,500001,1000000,9.75
+Washington D.C.,Married Filing Jointly,1000001,Double.MAX_VALUE,10.75
