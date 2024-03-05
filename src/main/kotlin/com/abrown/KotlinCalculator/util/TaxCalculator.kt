@@ -60,7 +60,7 @@ class TaxCalculator {
      * This function calculates how much tax is taken from the user based on income, tax bracket, and
      * marital status.
      */
-    fun calculateFederalIncomeTax(income: Double, maritalStatus: MaritalStatus): Pair<Double, Double> {
+    private fun calculateFederalIncomeTax(income: Double, maritalStatus: MaritalStatus): Double {
         val taxBrackets = getTaxBracketsForMaritalStatus(maritalStatus)
         var remainingIncome = income
         var totalTax = 0.0
@@ -81,8 +81,52 @@ class TaxCalculator {
         // calculate the net pay once taxes are removed
         netPay -= totalTax
 
-        // return both tax amount and pay amount
-        return Pair(totalTax, netPay)
+        // return the tax amount
+        return totalTax
+    }
+
+    /**
+     * @param income - double - user's salary
+     * @param maritalStatus - MaritalStatus
+     * @param state - string - state the user is from
+     *
+     * @return Double - total state income tax owed
+     */
+    private fun calculateStateIncomeTax(income: Double, maritalStatus: MaritalStatus, state: String): Double {
+        val stateBracket = stateTaxBrackets.find { it.state == state && it.marital == maritalStatus }
+        stateBracket?.let {
+            val taxableIncome = minOf(income, it.upperBound - it.lowerBound)
+            return taxableIncome * it.taxRate
+        }
+        return 0.0 // if no state tax bracket is found, return 0 tax (this shouldn't happen, but just in case)
+    }
+
+    /**
+     * Combine the federal income tax and state income tax things
+     *
+     * @param income - double
+     * @param maritalStatus - MaritalStatus
+     * @param state - string
+     *
+     * @return Pair<Double, Double> - the total tax and net pay
+     */
+    fun calculateIncomeTax(income: Double, maritalStatus: MaritalStatus, state: String): Pair<Double, Double> {
+        val federalTax = calculateFederalIncomeTax(income, maritalStatus)
+        val stateTax = calculateStateIncomeTax(income, maritalStatus, state)
+        val totalTax = federalTax + stateTax
+        val netPay = income - totalTax
+        return Pair(totalTax.round(2), netPay.round(2))
+    }
+
+    /**
+     * @param int - the integer to round
+     *
+     * @return double rounded to specified decimal points
+     */
+    fun Double.round(decimals: Int): Double {
+        var multiplier = 1.0
+        repeat(decimals) { multiplier *= 10 }
+        return kotlin.math.round(this * multiplier) / multiplier
     }
 
     /**
@@ -100,10 +144,12 @@ class TaxCalculator {
         }
     }
 
-    // Load state income tax brackets from CSV file
+    /**
+     * Lazy load for all the state tax brackets
+     */
     private val stateTaxBrackets: List<StateBracket> by lazy {
         val stateTaxData = mutableListOf<StateBracket>()
-        val csvFile = File("state_tax_rates.csv")
+        val csvFile = File("src/main/resources/states.csv")
         val lines = csvFile.readLines().drop(1) // Skip header line
 
         lines.forEach { line ->
