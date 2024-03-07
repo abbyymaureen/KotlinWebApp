@@ -32,6 +32,5 @@ bin/
 .iml
 build/
 build
-build.gradle.kts
 .idea
 .gradle
